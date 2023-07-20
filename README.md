@@ -49,16 +49,8 @@ My final model included OneHotEncodeding the zipcode variable given it being a n
 * The step by step can be found within the Modeling.ipynp notebook
 
 #### Heatmap
-
-* Lastly I constructed two heatmaps which represent the price of homes spread out using the longitude and latitude of each respective home and the other with additional detail represents the zipcodes with the largest frequency of homes sold.
-
-
-![Zip_hm](https://user-images.githubusercontent.com/117116368/206790410-7fb16e6d-4a52-4df2-b922-8631910bf782.png)
-
-* Above is the heatmap grouped by zipcode and home sale frequency 
-
-
-![image](https://user-images.githubusercontent.com/117116368/206790836-ed7a2d2c-3f29-46d1-a6bb-1297a2cab796.png)
+To get a better understanding of which areas have the higher home prices by zipcode. Evidently the zip codes that border lake washington are the most expensive alongside Bellevue.
+<img width="1552" alt="Screenshot 2023-07-20 at 5 42 43 PM" src="https://github.com/CarlosGG18/King-County-Washington-Regression-Analysis/assets/117116368/c9378161-3d4b-4bb6-86b8-9ce34c1eabf5">
 
 * The maps were constructed using matplotlib and Folium libraries found within the HeatMap-Folium.ipynp notebooks
 
